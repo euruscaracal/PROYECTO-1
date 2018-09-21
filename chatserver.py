@@ -1,7 +1,9 @@
 import socket
 import threading
 import pickle
+import sys
 from threading import Thread
+
 #clase para simular un servidor
 
 class chatserver:
@@ -19,20 +21,30 @@ class chatserver:
         print ("socket now listening")
         self.clientes = []
 
+
     def conexiones(self):
         self.hilo = threading.Thread(target=self.recibirmensaje)
         self.hilo.daemon = True
         self.hilo.start()
 
+    def establece(self):
+        try:
+            while True:
+                print("Waiting for conexion...")
+                m = input("Recibo mensajes: ")
+                if m == "DISCONNECT":
+                    self.soquete.close()
+                    sys.exit()
+                    break
+        except:
+            pass
 
     def send(self, mensaje, cliente):
-        for c in self.clientes:
-            if c != cliente:
-                self.c.send(mensaje)
-            else:
-                self.clientes.remove(c)
-
-#método que manda mensajes al cliente.
+         for c in self.clientes:
+             if c != cliente:
+                 self.c.send(mensaje)
+             else:
+                 self.clientes.remove(c)
 
     def run(self):
         while True:
@@ -50,9 +62,11 @@ class chatserver:
              if datos:
                  self.send(datos,conn)
              else:
-                 print("prueba")
+                 print("Te has desconectado. ¡Vuelve pronto!")
                  conn.close()
                  break
+
+
 
 S = chatserver()
 S.run()

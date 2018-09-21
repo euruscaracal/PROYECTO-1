@@ -4,7 +4,6 @@ import pickle
 #clase que simula el cliente
 class chatclient:
 
-
     def __init__(self):
         self.ip = str(input("Enter IP: "))
         self.port = int(input("Enter port: "))
@@ -23,7 +22,7 @@ class chatclient:
     def run(self):
 
         while True:
-          message = input("envia un mensaje: ")
+          message = input("Envia un mensaje: ")
           #self.soquete.send(pickle.dumps(message))
           if message == "DISCONNECT":
             print("")
