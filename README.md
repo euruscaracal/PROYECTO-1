@@ -26,16 +26,18 @@ _Port: 1234_
 
 ### Retroalimentación:
 
-_No tengo una interfaz gráfica_
+_No tengo una interfaz gráfica._
 
-_Tenía una rama que tenía desde hace tres semanas y la borré por error y no pude recuperarla_
+_Tenía una rama que tenía desde hace tres semanas y la borré por error y no pude recuperarla._
 
-_Tampoco hice pruebas unitarias_
+_Tampoco hice pruebas unitarias._
 
 _Puedo decir que de este proyecto aprendí dos cosas:_
- _1. A ser más organizada con la administración de mi tiempo_
- _2. A construir un proyecto desde cero y de forma autodidácta_
 
-_No estoy satisfecha con el resultado, pero me divertí haciendo esto y aprendí de alguna u otra forma_
--
+ _1. A ser más organizada con la administración de mi tiempo._
+
+ _2. A construir un proyecto desde cero y de forma autodidácta._
+
+_No estoy satisfecha con el resultado, pero me divertí haciendo esto y aprendí de alguna u otra forma._
+
 ## Autor  [euruscaracal](https://github.com/euruscaracal)
