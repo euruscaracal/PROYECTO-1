@@ -7,8 +7,8 @@ _Objetivo: Crear un prototipo de chat en un lenguaje de programación distinto a
 
 ### Requisitos
 _La versión de Python que ocupé es:_
-_Python 3.5.2, para ejecutar el programa se deben realizar las siguientes instrucciones:
-chat/PROYECTO-1_
+_Python 3.5.2, para ejecutar el programa se deben realizar las siguientes instrucciones:_
+_chat/PROYECTO-1_
 
 ```
 _Ejecutar chatserver.py_
@@ -25,18 +25,17 @@ _Port: 1234_
 ```
 
 ### Retroalimentación:
-_No tengo una interfaz gráfica._
 
-_Tenía una rama que tenía desde hace tres semanas y la borré por error y no pude recuperarla._
+_No tengo una interfaz gráfica_
 
-_Tampoco hice pruebas unitarias._
+_Tenía una rama que tenía desde hace tres semanas y la borré por error y no pude recuperarla_
+
+_Tampoco hice pruebas unitarias_
 
 _Puedo decir que de este proyecto aprendí dos cosas:_
- _1. A ser más organizada con la administración de mi tiempo._
- _2. A construir un proyecto desde cero y de forma autodidácta._
+ _1. A ser más organizada con la administración de mi tiempo_
+ _2. A construir un proyecto desde cero y de forma autodidácta_
 
-_No estoy satisfecha con el resultado, pero me divertí haciendo esto y aprendí de alguna u otra forma._
-
-## Autor
-
- [euruscaracal](https://github.com/euruscaracal)
+_No estoy satisfecha con el resultado, pero me divertí haciendo esto y aprendí de alguna u otra forma_
+-
+## Autor  [euruscaracal](https://github.com/euruscaracal)
